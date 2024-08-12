@@ -1,7 +1,14 @@
-import { Inter } from "next/font/google";
+import { Bricolage_Grotesque, Oswald } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
+import { cn } from "@/lib/utils";
 
-const inter = Inter({ subsets: ["latin"] });
+const mainFont = Bricolage_Grotesque({ subsets: ["latin"] });
+const oswaldFont = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
+const pixelFont = localFont({
+  src: "../public/assets/fonts/pixel-font-7.ttf",
+  variable: "--font-pixel",
+});
 
 export const metadata = {
   title: "Amir Khan",
@@ -11,7 +18,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={cn(
+          mainFont.className,
+          oswaldFont.variable,
+          pixelFont.variable
+        )}
+      >
+        {children}
+      </body>
     </html>
   );
 }
