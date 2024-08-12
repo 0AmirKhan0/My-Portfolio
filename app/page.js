@@ -1,5 +1,6 @@
-import Image from "next/image";
+import { cn } from "@/lib/utils";
+import clsx from "clsx";
 
 export default function Home() {
-  return <div className="text-black text-4xl">Test</div>;
+  return <div className={cn("italic")}>Test</div>;
 }
