@@ -1,8 +1,11 @@
 import { Bricolage_Grotesque, Oswald } from "next/font/google";
 import localFont from "next/font/local";
-import "./globals.css";
+
 import { cn } from "@/lib/utils";
-import GrainEffect from "@/components/GrainEffect";
+
+import GrainEffect from "@/components/visualEffects/GrainEffect";
+import "./globals.css";
+import Cursor from "@/components/cursor/cursor";
 
 const mainFont = Bricolage_Grotesque({ subsets: ["latin"] });
 const oswaldFont = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
@@ -11,6 +14,7 @@ const pixelFont = localFont({
   variable: "--font-pixel",
 });
 
+// MetaData
 export const metadata = {
   title: "Amir Khan",
   description: "Amir khan official portfolio",
@@ -27,6 +31,7 @@ export default function RootLayout({ children }) {
         )}
       >
         <GrainEffect />
+        <Cursor color="#fff" />
         {children}
       </body>
     </html>
