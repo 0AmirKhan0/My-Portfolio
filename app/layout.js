@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 import GrainEffect from "@/components/visualEffects/GrainEffect";
 import "./globals.css";
-import Cursor from "@/components/cursor/cursor";
+import Cursor from "@/components/cursor/Cursor";
 
 const mainFont = Bricolage_Grotesque({ subsets: ["latin"] });
 const oswaldFont = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
