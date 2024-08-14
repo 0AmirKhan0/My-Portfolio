@@ -1,6 +1,6 @@
 "use client";
 import Button from "@/components/ui/Button";
-import Card from "@/components/ui/card";
+import Card from "@/components/ui/Card";
 import WaterWaveWrapper from "@/components/visualEffects/WaterWaveWrapper";
 
 import { IoHome } from "react-icons/io5";
