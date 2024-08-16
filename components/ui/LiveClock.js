@@ -20,7 +20,7 @@ export default function LiveClock({ timeZone }) {
         <div>Loading...</div>
       ) : (
         <div>
-          <span>{timeZone.split("/").at(1)}</span> , <span>{time}</span>
+          <span>Kerman</span> , <span>{time}</span>
         </div>
       )}
     </div>

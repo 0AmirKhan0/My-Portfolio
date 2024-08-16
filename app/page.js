@@ -1,3 +1,5 @@
+import LandingSection from "@/sections/Landing";
+
 export default function Home() {
   return (
     // <WaterWaveWrapper
@@ -6,7 +8,9 @@ export default function Home() {
     //   perturbance="3"
     //   resolution="2048"
     // >
-    <></>
+    <div>
+      <LandingSection />
+    </div>
     //  </WaterWaveWrapper>
   );
 }
