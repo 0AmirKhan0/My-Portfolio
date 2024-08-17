@@ -1,5 +1,6 @@
 "use client";
 import WaterWave from "react-water-wave";
+
 export default function WaterWaveWrapper({
   imageUrl,
   dropRadius,

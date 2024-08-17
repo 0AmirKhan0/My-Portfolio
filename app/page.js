@@ -1,3 +1,5 @@
+import WaterWaveWrapper from "@/components/visualEffects/WaterWaveWrapper";
+import FeaturedSection from "@/sections/Featured";
 import LandingSection from "@/sections/Landing";
 
 export default function Home() {
@@ -8,9 +10,12 @@ export default function Home() {
     //   perturbance="3"
     //   resolution="2048"
     // >
+
     <div>
-      <LandingSection />
+      {/* <LandingSection /> */}
+      <FeaturedSection />
     </div>
-    //  </WaterWaveWrapper>
+
+    // </WaterWaveWrapper>
   );
 }

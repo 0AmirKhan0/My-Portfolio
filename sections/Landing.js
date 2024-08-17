@@ -7,12 +7,12 @@ import ScrollDown from "@/components/ui/ScrollDown";
 
 export default function LandingSection() {
   return (
-    <div className="relative h-screen overflow-auto p-8">
+    <div className="h-auto p-8">
       {/* Header */}
       <Header />
 
       {/* Slogan */}
-      <div className="mx-auto mt-8 leading-[14vw] lg:leading-[10vw] 2xl:leading-[9rem] font-medium h-[40rem] tracking-[-0.3rem]">
+      <div className="mx-auto mt-8 h-auto leading-[14vw] lg:leading-[10vw] 2xl:leading-[9rem] font-medium tracking-[-0.3rem]">
         <div className="flex flex-col h-full justify-center items-center text-primary-foreground text-[18vw] 2xl:text-[12rem] uppercase lg:text-[14vw]">
           <div>
             <span>Code</span>
