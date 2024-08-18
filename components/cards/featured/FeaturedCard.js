@@ -1,5 +1,5 @@
 import Header from "@/components/cards/featured/Header";
-import Video from "./featured/Video";
+import Video from "./Video";
 
 export default function FeaturedCard({
   logo = null,

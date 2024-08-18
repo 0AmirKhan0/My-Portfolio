@@ -1,6 +1,6 @@
 "use client";
 import { FeaturedData } from "@/data/Featured";
-import FeaturedCard from "../cards/FeaturedCard";
+import FeaturedCard from "../cards/featured/FeaturedCard";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 

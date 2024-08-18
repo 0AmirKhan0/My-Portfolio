@@ -1,4 +1,4 @@
-import FeaturedCard from "@/components/cards/FeaturedCard";
+import FeaturedCard from "@/components/cards/featured/FeaturedCard";
 import ExpandableFeatured from "@/components/expandables/ExpandableFeatured";
 import Heading from "@/components/heading/Heading";
 
