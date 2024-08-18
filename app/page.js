@@ -1,4 +1,5 @@
 import WaterWaveWrapper from "@/components/visualEffects/WaterWaveWrapper";
+import AboutSection from "@/sections/About";
 import FeaturedSection from "@/sections/Featured";
 import LandingSection from "@/sections/Landing";
 
@@ -13,7 +14,8 @@ export default function Home() {
 
     <div className="pb-8">
       {/* <LandingSection /> */}
-      <FeaturedSection />
+      {/* <FeaturedSection /> */}
+      <AboutSection />
     </div>
 
     // </WaterWaveWrapper>
