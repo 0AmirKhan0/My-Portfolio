@@ -27,7 +27,7 @@ export default function MeCard() {
             className="rounded-tl-lg rounded-tr-2xl rounded-br-2xl rounded-bl-lg"
           />
           <Tag
-            text="Online instructore"
+            text="Working with Next.Js and React"
             className="rounded-tl-lg rounded-tr-2xl rounded-br-2xl rounded-bl-2xl"
           />
         </div>

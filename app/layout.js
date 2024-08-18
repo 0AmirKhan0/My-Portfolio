@@ -16,7 +16,7 @@ const pixelFont = localFont({
 
 // MetaData
 export const metadata = {
-  title: "Amir Khan",
+  title: "Amir Khan Portfolio",
   description: "Amir khan official portfolio",
 };
 
