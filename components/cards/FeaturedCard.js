@@ -1,7 +1,13 @@
 import Header from "@/components/cards/featured/Header";
 import Video from "./featured/Video";
 
-export default function FeaturedCard({ logo, title, tag, video, active }) {
+export default function FeaturedCard({
+  logo = null,
+  title,
+  tag,
+  video,
+  active,
+}) {
   return (
     <div className="link w-full h-full bg-secondary-background border border-border shadow-lg rounded-3xl cursor-pointer flex flex-col gap-2 flex-nowrap p-2">
       {/* Header */}
