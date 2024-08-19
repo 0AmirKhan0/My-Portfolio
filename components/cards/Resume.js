@@ -9,7 +9,7 @@ import Socials from "../ui/Socials";
 export default function ResumeCard() {
   return (
     <Card className="md:h-full">
-      <p className="text-lg xl:text-2xl font-medium text-primary-foreground">
+      <p className="text-lg font-medium text-primary-foreground">
         Front-End Developer and Aspiring Web Wizard I&apos;m a passionate
         Front-End Developer and student, currently diving deep into the world of
         React and Next.js. With 2 years of hands-on experience in crafting

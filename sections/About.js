@@ -1,3 +1,4 @@
+import BackgroundCard from "@/components/cards/Background";
 import MeCard from "@/components/cards/Me";
 import ResumeCard from "@/components/cards/Resume";
 import Heading from "@/components/heading/Heading";
@@ -12,8 +13,7 @@ export default function AboutSection() {
           {/* me card */}
           <MeCard />
           <ResumeCard />
-
-          <Card title="Background">Background</Card>
+          <BackgroundCard />
           <Card title="Gallery" className="2xl:hidden">
             Gallery
           </Card>
