@@ -15,11 +15,11 @@ export default function Heading({ number, title_1, title_2 }) {
 
       {/* hidden text wrapper */}
       <div className="flex items-center flex-nowrap min-h-min overflow-hidden p-0 w-full font-oswald">
-        <p className="text-[17vw] lg:text-[12vw] leading-[100%] text-primary-foreground mr-3">
+        <p className="text-[12vw] leading-[100%] text-primary-foreground mr-3">
           {title_1}
         </p>
         <HeadingAnimatedSvg text="LEARN MORE ABOUT FEATURED PROJECTS" />
-        <p className="text-[17vw] lg:text-[12vw] leading-[100%] text-primary-foreground italic font-semibold">
+        <p className="text-[12vw] leading-[100%] text-primary-foreground font-semibold sm:ml-3">
           {title_2}
         </p>
       </div>
