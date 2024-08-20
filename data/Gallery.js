@@ -8,10 +8,6 @@ export const galleryImages = [
     img: Img1,
   },
   {
-    id: 1,
-    img: Img2,
-  },
-  {
     id: 2,
     img: Img3,
   },

@@ -3,6 +3,7 @@ import MeCard from "@/components/cards/Me";
 import ResumeCard from "@/components/cards/Resume";
 import Heading from "@/components/heading/Heading";
 import Card from "@/components/ui/Card";
+import Gallery from "@/components/ui/Gallery";
 
 export default function AboutSection() {
   return (
@@ -10,13 +11,12 @@ export default function AboutSection() {
       <Heading number="02" title_1="About" title_2="Me" />
       <div className="space-y-4 py-8">
         <div className="space-y-8 md:grid md:grid-cols-2 md:gap-4 md:space-y-0 2xl:grid-cols-3">
-          {/* me card */}
           <MeCard />
           <ResumeCard />
           <BackgroundCard />
-          <Card title="Gallery" className="2xl:hidden">
-            Gallery
-          </Card>
+          <div className="2xl:hidden">
+            <Gallery />
+          </div>
         </div>
         <div className="space-y-8 md:grid md:grid-cols-2 md:gap-4 md:space-y-0 2xl:grid-cols-3">
           <div className="space-y-4">
@@ -29,7 +29,7 @@ export default function AboutSection() {
             <Card title="Education">Education</Card>
           </div>
           <div className="hidden 2xl:flex">
-            <Card title="Gallery">Gallery</Card>
+            <Gallery />
           </div>
         </div>
       </div>
