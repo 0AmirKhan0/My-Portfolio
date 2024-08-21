@@ -1,14 +1,24 @@
+"use client";
+
+import { useState } from "react";
+
 import ContactCard from "@/components/cards/Contact";
 import Heading from "@/components/heading/Heading";
 import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
 import Input from "@/components/ui/Input";
+import SelectInput from "@/components/ui/SelectInput";
 import TextArea from "@/components/ui/TextArea";
+
 import { FaPhoneVolume, FaProjectDiagram, FaUser } from "react-icons/fa";
 import { MdEmail, MdSubject } from "react-icons/md";
 import { SiMinutemailer } from "react-icons/si";
+import { budgetOptions, servicesOptions } from "@/data/Contact";
 
 export default function ContactSection() {
+  const [services, setServices] = useState([]);
+  const [budgets, setBudgets] = useState([]);
+
   return (
     <div className="pt-24 px-3 lg:px-8">
       <Heading number="03" title_1="Contact" title_2="Me" />
@@ -44,12 +54,23 @@ export default function ContactSection() {
             </div>
             {/* multiple select wrapper */}
             <div className="flex flex-col gap-6">
-              <div>
+              <div className="space-y-6">
                 <h1 className="font-bold text-lg">
                   What services are you in need for?
                 </h1>
                 <div className="flex flex-wrap items-center justify-between mb-4 gap-8">
                   {/* services */}
+                  {servicesOptions.map((service) => (
+                    <SelectInput
+                      key={service.id}
+                      id={service.id}
+                      type="checkbox"
+                      text={service.text}
+                      selectedOptions={services}
+                      setSelectedOptions={setServices}
+                      allowMultiple
+                    />
+                  ))}
                 </div>
               </div>
             </div>
@@ -59,6 +80,16 @@ export default function ContactSection() {
                 <h1 className="font-bold text-lg">What is your budget ?</h1>
                 <div className="flex flex-wrap items-center justify-between mb-4 gap-8">
                   {/* budget options */}
+                  {budgetOptions.map((budget) => (
+                    <SelectInput
+                      key={budget.id}
+                      id={budget.id}
+                      type="radio"
+                      text={budget.text}
+                      selectedOptions={budgets}
+                      setSelectedOptions={setBudgets}
+                    />
+                  ))}
                 </div>
               </div>
             </div>
