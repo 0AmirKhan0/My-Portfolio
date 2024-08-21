@@ -20,10 +20,8 @@ export default function AboutSection() {
           </div>
         </div>
         <div className="space-y-8 md:grid md:grid-cols-2 md:gap-4 md:space-y-0 2xl:grid-cols-3">
-          <div className="space-y-4">
-            <Card title="Stack">Stack</Card>
-            <ExperienceCard />
-          </div>
+          <Card title="Stack">Stack</Card>
+          <ExperienceCard />
           <div className="hidden 2xl:flex">
             <Gallery />
           </div>
