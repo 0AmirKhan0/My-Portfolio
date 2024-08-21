@@ -21,13 +21,8 @@ export default function AboutSection() {
         </div>
         <div className="space-y-8 md:grid md:grid-cols-2 md:gap-4 md:space-y-0 2xl:grid-cols-3">
           <div className="space-y-4">
-            <Card title="Instructor">Instructor</Card>
-            <Card title="Certifications">Certifications</Card>
-          </div>
-          <div className="space-y-4">
             <Card title="Stack">Stack</Card>
             <ExperienceCard />
-            <Card title="Education">Education</Card>
           </div>
           <div className="hidden 2xl:flex">
             <Gallery />
