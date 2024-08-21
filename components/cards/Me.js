@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export default function MeCard() {
   return (
-    <Card className="2xl:h-full overflow-hidden">
+    <Card className="2xl:h-full overflow-hidden h-full">
       <div className="w-full h-[400px] sm:h-[500px] ">
         <Image
           src={MyImg}

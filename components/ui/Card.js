@@ -4,7 +4,7 @@ export default function Card({ title, children, className }) {
   return (
     <div
       className={cn(
-        "relative bg-primary-background w-full h-full rounded-2xl border border-border p-6 text-primary-foreground",
+        "relative bg-primary-background w-full h-min rounded-2xl border border-border p-6 text-primary-foreground",
         className
       )}
     >
