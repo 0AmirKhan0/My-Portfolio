@@ -15,7 +15,7 @@ export default function MeCard() {
         {/* tags */}
         <div className="absolute top-[65%] space-y-2">
           <Tag
-            text="Hello universe 👋"
+            text="Hello Developers 👋"
             className="rounded-tl-2xl rounded-tr-2xl rounded-br-2xl rounded-bl-lg"
           />
           <Tag
@@ -27,7 +27,7 @@ export default function MeCard() {
             className="rounded-tl-lg rounded-tr-2xl rounded-br-2xl rounded-bl-lg"
           />
           <Tag
-            text="Working with Next.Js and React"
+            text="Working also teching Next.Js and React"
             className="rounded-tl-lg rounded-tr-2xl rounded-br-2xl rounded-bl-2xl"
           />
         </div>

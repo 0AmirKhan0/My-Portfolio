@@ -4,7 +4,6 @@ import MeCard from "@/components/cards/Me";
 import ResumeCard from "@/components/cards/Resume";
 import StackCard from "@/components/cards/Stack";
 import Heading from "@/components/heading/Heading";
-import Card from "@/components/ui/Card";
 import Gallery from "@/components/ui/Gallery";
 
 export default function AboutSection() {
