@@ -1,7 +1,3 @@
-Sure! Here’s a sample `README.md` template that you can use for your GitHub repository:
-
----
-
 # 🌐 My Portfolio
 
 Welcome to my personal portfolio repository! This project showcases my skills, projects, and experiences in web development, designed and developed with **Next.js** and enhanced with various visual effect libraries.
