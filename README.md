@@ -34,35 +34,6 @@ Check out the live version of my portfolio [here](https://my-portfolio-virid-rho
 └── README.md     # Project documentation
 ```
 
-## 🔧 Installation & Setup
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   ```
-
-2. **Navigate to the project directory:**
-   ```bash
-   cd your-portfolio
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pnpm install
-   ```
-
-4. **Run the development server:**
-   ```bash
-   pnpm dev
-   ```
-
-5. **Open your browser and visit:**
-   ```
-   http://localhost:3000
-   ```
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you have any ideas, feel free to fork the repository and submit a pull request. You can also open an issue for any bugs or feature requests.
