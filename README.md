@@ -20,7 +20,7 @@ This portfolio is a reflection of my journey as a developer. It not only display
 
 ## 🖥️ Live Demo
 
-Check out the live version of my portfolio [here]([https://your-portfolio-link.com](https://my-portfolio-virid-rho-21.vercel.app)).
+Check out the live version of my portfolio [here](https://my-portfolio-virid-rho-21.vercel.app).
 
 ## 📂 Project Structure
 
