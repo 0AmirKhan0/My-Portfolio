@@ -29,8 +29,8 @@ Check out the live version of my portfolio [here]([https://your-portfolio-link.c
 ## 📂 Project Structure
 
 ```bash
+├── app           # main file 
 ├── components    # Reusable components for the portfolio
-├── pages         # Next.js pages (including index.js for the homepage)
 ├── data          # All data
 ├── section       # All section pages 
 ├── public        # Static assets such as images, fonts, etc.
