@@ -46,6 +46,3 @@ Feel free to reach out if you have any questions or just want to connect!
 
 Thank you for checking out my portfolio! 🎉
 
----
-
-Feel free to customize this template further to match your project's specifics and your personal preferences.
